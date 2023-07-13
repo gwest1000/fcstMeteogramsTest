@@ -1,5 +1,5 @@
 pandas
-os
+-r os
 glob
 ipywidgets
 plotly.graph_objects
