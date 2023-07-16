@@ -4,11 +4,6 @@ channels:
 dependencies:
   - python=3.11
   - numpy
-  - pip
-  - pip:
-    - pandas
-    - os
-    - glob
-    - ipywidgets
-    - plotly.graph_objects
-    - IPython.display
+  - pandas
+  - ipywidgets
+  - plotly
