@@ -3,10 +3,11 @@ channels:
   - conda-forge
 dependencies:
   - python=3.11
-  - pandas
-  - os
-  - glob
-  - ipywidgets
-  - plotly.graph_objects
-  - IPython.display
   - numpy
+  - pip:
+    - pandas
+    - os
+    - glob
+    - ipywidgets
+    - plotly.graph_objects
+    - IPython.display
